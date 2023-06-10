@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { FaPlus, FaMinus } from 'react-icons/Fa';
+import { FaPlus, FaMinus } from 'react-icons/fa';
 
 function Question({ title, info }) {
   const [displayText, setDisplayText] = useState(false);
